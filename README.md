@@ -4,10 +4,10 @@ This project shows how to use Chef to configure an EC2 instance for Nginx. It pr
 
 This project demonstrates the process of using Chef to set up Nginx on an Amazon EC2 instance. The repository includes:
 
-	1.	Chef Environment Setup: Commands for creating the project and cookbook directories.
-	2.	Cookbook Creation: Instructions for generating and editing a cookbook to install and manage Nginx.
-	3.	Recipe Execution: Steps to run the Chef recipe locally and verify Nginx installation.
-	4.	Verification: Instructions for checking the Nginx version and accessing it via a web browser.
+1. Chef Environment Setup: Commands for creating the project and cookbook directories.
+2. Cookbook Creation: Instructions for generating and editing a cookbook to install and manage Nginx.
+3. Recipe Execution: Steps to run the Chef recipe locally and verify Nginx installation.
+4. Verification: Instructions for checking the Nginx version and accessing it via a web browser.
 
 ### EC2 - Chef Configuration
 
