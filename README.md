@@ -80,3 +80,38 @@ Obtain the public IP address of your EC2 instance and open it in a web browser. 
 SG: Inbound rule - 80
 http://instance-ip:80
 ```
+
+### Nginx Service Management Commands
+
+These commands are used to manage the Nginx service on a Linux system using `systemctl`, which is the system and service manager for Linux. 
+
+1. **Stop the Nginx Service**
+   ```bash
+   sudo systemctl stop nginx
+   ```
+   This command stops the Nginx service. The service will be halted, and Nginx will no longer respond to requests until it is restarted.
+
+2. **(Typo: Incorrect Command)**
+   ```bash
+   sudo systemctl startp nginx
+   ```
+   Note: This command contains a typo (`startp` should be `start`). It will not execute correctly. The correct command to start Nginx is:
+   ```bash
+   sudo systemctl start nginx
+   ```
+
+3. **Start the Nginx Service**
+   ```bash
+   sudo systemctl start nginx
+   ```
+   This command starts the Nginx service. The service will begin running and will start responding to requests.
+
+4. **Check the Status of the Nginx Service**
+   ```bash
+   sudo systemctl status nginx
+   ```
+   This command displays the current status of the Nginx service, including whether it is active (running), inactive (stopped), or in a failed state. It also provides additional information such as the last few log entries.
+
+---
+
+Make sure to use `systemctl start nginx` to properly start the service, and correct any typos to ensure commands execute as intended.
